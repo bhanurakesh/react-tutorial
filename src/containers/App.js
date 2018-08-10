@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 import classes from './App.css';
 import Persons from '../components/Persons/Persons';
 import Cockpit from '../components/Cockpit/Cockpit';
-import Aux from '../hoc/Aux';
+import Aux from '../hoc/Auxx';
 import withClass from '../hoc/withClass';
 
 export const AuthContext = React.createContext(false);
